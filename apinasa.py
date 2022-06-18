@@ -3,7 +3,7 @@ import json
 from datetime import datetime
 
 
-API_KEY ='GKnVjFnA6ibq3RZHdZjBELU82co13qDkkveoSpyM'
+API_KEY =''
 
 API_URL = 'https://api.nasa.gov/planetary/apod?api_key=GKnVjFnA6ibq3RZHdZjBELU82co13qDkkveoSpyM'
 
