@@ -1,0 +1,16 @@
+{% extends './layout/layout.html' %}
+{% block body %}
+
+<div class="container mt-3">
+    <div class="card" style="width:1000px">
+      <div class="card-body">
+        <h4 class="card-title">{{ title }}</h4>
+        <p class="card-text">{{ explanation }}</p>
+        <p class="card-text">Link Imagen: {{ url_img }}</p>
+        <img class="card-img-top" src="{{url_img}}" alt="{{url_img}}"  style="width:100%">
+      </div>
+    </div>
+    <br>
+</div>
+
+{% endblock %}
