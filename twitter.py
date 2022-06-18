@@ -11,5 +11,5 @@ auth.set_access_token(key, secret)
 api = tweepy.API(auth)
 
 def tweet(mensaje): 
-    api.update_status(mensaje,media_ids=[ret.media_id_string]) 
+    api.update_status(mensaje) 
     return "enviado"
